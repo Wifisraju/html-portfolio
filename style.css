@@ -59,9 +59,22 @@ body{
     color: rgb(67, 193, 67);
     letter-spacing: 2px;
     font-size: 50px;
+    font-style: italic;
     
 }
 .services {
      padding: 50px;
      text-align: center;
+}
+.services-sub-cont {
+    display: flex;
+    flex-direction: row;
+    
+    padding-left: 200px;
+   
+}
+.Services-card{
+    border: 2px rgb(57, 187, 57) solid;
+    padding-right: 50px;
+    margin: 20px;
 }
